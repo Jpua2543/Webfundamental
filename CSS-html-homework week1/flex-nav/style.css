@@ -1,0 +1,29 @@
+*{
+    /* outline: 1px dashed red; */
+}
+.nav{
+    background-color: darkgrey;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+h1{
+    color: white;
+    margin: 10px;
+}
+.nav-links{
+    width: 400px;
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around
+}
+a{
+    color: white;
+
+}
+.btn{
+    color: white;
+    background-color: darkcyan;
+    box-shadow: 1px 1px 1px 1px black;
+}

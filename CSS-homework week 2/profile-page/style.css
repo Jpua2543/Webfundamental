@@ -1,0 +1,62 @@
+*{
+    outline: 1px dashed red;
+    box-sizing: border-box;
+    /* padding: 0; */
+    margin: 0 auto;
+    padding: 0 auto;
+} 
+.container-nav{
+    display: flex;
+    background-color: black;
+    border: 3px solid black;
+    padding: 15px;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    width: 40%;
+    color: white;
+    align-items: center;
+    }
+.profile > div{
+    display: flex;
+    padding: 5%;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}  
+.btn{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+}
+.Lcontainer,.Rcontainer{
+    display: inline-block;
+}
+.Rcontainer{
+    width: 15%;
+}
+.JD-container{
+    background-color: white;
+    border: 2px solid gray;
+    padding: 20px;
+    margin-left: 16%;
+}
+.user-icon{
+    height: 50px;
+}
+.map-marker{
+    height: 25px;
+}
+.gear{
+    height: 20px;
+}
+.Cr-container{
+    border: 2px solid gray;
+    margin: 10px;
+}
+.TP-request{
+    height: 60px;
+}
+.Econtainer{
+    border: 2px solid gray;
+}

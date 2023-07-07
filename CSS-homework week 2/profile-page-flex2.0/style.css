@@ -1,0 +1,105 @@
+
+.container-nav{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 25px;
+}
+.plinks{
+    margin:10px;
+}
+.btn{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+}
+.Lcontainer{
+}
+.Usercontainer{
+    border: 2px solid gray;
+    height: 300px;
+    width: 350px;
+    margin: 25px;
+}
+.color{
+    background-color: cyan;
+    padding: 25px;
+    border: 2px solid gray;
+    height: 20px;
+}
+.Icon{
+    height: 75px;
+}
+.jp{
+    margin: 25px;
+}
+.location{
+    height: 20px;
+}
+.jinfo{
+    margin:15px;
+}
+.gear{
+    height: 25px;
+}
+.editp{
+    margin: 13px;
+}
+.EduContainer{
+    border: 2px solid gray;
+    width: 350px;
+    height: 130px;
+    margin-left: 20px;
+}
+.ed{
+    background-color: gray;
+    color: white;
+    height: 25px;
+
+}
+.cd{
+    margin: 10px;
+    text-align: center;
+}
+.crcontainer{
+    border: 2px solid gray;
+    margin: 10px;
+    width: 150;
+}
+.Rcontainer{
+    margin: 15px;
+}
+.twocr{
+    background-color: gray;
+    border: 2px solid gray;
+}
+.ptimg{
+    height: 35px;
+}
+.vx{
+    height: 15px;
+}
+.YC{
+    border: 2px solid gray;
+    width: 150px;
+    margin: 10px;
+}
+.Ycontainer{
+    background-color: gray;
+}
+.VM{
+    border: 2px solid gray;
+}
+.view{
+    /* margin: 5px; */
+}

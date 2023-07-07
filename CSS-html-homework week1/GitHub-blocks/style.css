@@ -1,0 +1,33 @@
+*{
+    /* outline: 1px dashed red; */
+    box-sizing: border-box;
+}
+
+h1,h2{
+text-align: center;
+}
+.container{
+    background-color: yellow;
+    margin: 0 auto;
+    width: 900px;
+}
+.gray{
+    justify-content: space-between;
+    background-color: gray;
+}
+.black{
+    justify-content:space-evenly;
+    background-color:rgb(27, 18, 5);
+    margin:20px 0 ;
+}
+.aqua{
+    background-color: aqua;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    padding: 40px;
+}
+.octocat{
+    height: 200px;
+}

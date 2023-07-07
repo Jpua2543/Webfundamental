@@ -1,0 +1,92 @@
+*{
+    outline: 1px dashed red;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+} 
+.container-nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 25px;
+}
+.plinks{
+    margin:10px;
+}
+.btn{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+}
+.Jcontainer{
+    background-color:white;
+    height: 350px;
+    width: 400px;
+    border: 3px solid gray;
+}
+.color{
+    background-color: darkcyan;
+    width: 400px;
+    margin-bottom: 50px;
+    height: 80px;
+}
+.user{
+    margin: 40px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px gray;
+}
+.location{
+    height: 20px;
+    margin: 5px;
+}
+.phase,.settings{
+    margin-left: 15px;
+}
+h1,.john {
+    margin-left: 25px;
+}
+.gear{
+    height: 15px;
+    margin: 5px;
+}
+.edcontainer{
+    border: 3px solid gray;
+    width: 400px;
+}
+.ed{
+    background-color: gray;
+}
+.twocr{
+    background-color: gray;
+}
+.crconnect{
+    border: 2px solid gray;
+    width: 200px;
+}
+.ptimg{
+    height: 45px;
+    border-radius: 50px;
+}
+.yccontainer{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 200px;
+}
+.Cconnect{
+    border: 2px solid gray;
+    width: 200px;
+}
+.view{
+    /* display: flex; */
+}
+.Rside{
+    display: flex;
+    justify-content: center;
+}

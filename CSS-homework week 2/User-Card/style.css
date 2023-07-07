@@ -1,0 +1,42 @@
+
+*{
+    /* outline: 1px dashed red; */
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+} 
+
+.Jcontainer{
+    background-color:white;
+    height: 280px;
+    margin: 0 auto;
+    width: 800px;
+    border: 3px solid gray;
+}
+.color{
+    background-color: darkcyan;
+    width: 800px;
+    margin-bottom: 50px;
+    height: 80px;
+}
+.user{
+    margin: 40px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 3px gray;
+}
+.location{
+    height: 20px;
+    margin: 5px;
+}
+.phase,.settings{
+    margin-left: 15px;
+}
+p,h1 {
+    margin-left: 25px;
+}
+.gear{
+    height: 15px;
+    margin: 5px;
+}

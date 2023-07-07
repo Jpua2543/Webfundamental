@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1 class="space">
+            DojoWeather
+        </h1>
+        <ul class="links">
+            <li><a onclick="alert('Loading Weather report...')">
+                Burbank
+            </a></li>
+            <li><a onclick="alert('Loading Weather report...')">
+                Chicago
+            </a></li>
+            <li><a onclick="alert('Loading Weather report...')">
+                Dallas
+            </a></li>
+        </ul>
+    </div>
+    <div class="location">
+        <h2>
+            San Jose
+        </h2>
+        <ul class="nobullets" >
+            <li>
+                show temperature in
+            </li>
+            <li>
+                <select name="Temperature" onchange="selecttemp()" id="converttemp">
+                    <option value="℉">
+                        ℉
+                    </option>
+                    <option value="℃">
+                        ℃
+                    </option>
+                </select>
+            </li>
+        </ul>
+    </div>
+    <div class="days">
+        <div class="today">
+            <p>Today</p>
+            <img src="./img/some_rain.png" alt=""class="weather">
+            <p>
+                some rain
+            </p>
+            <ul class="dots">
+                <li class="cel">
+                    24
+                </li>
+                <li class="far">
+                    18
+                </li>
+            </ul>
+        </div>
+        <div class="tom">
+            <p>Tomorrow</p>
+            <img src="./img/some_sun.png" alt=""class="weather">
+            <p>
+                some sun
+            </p>
+            <ul class="dots">
+                <li class="cel">
+                    27
+                </li>
+                <li class="far">
+                    19
+                </li>
+            </ul>
+        </div>
+        <div class="fri">
+            <p>
+                Friday
+            </p>
+            <img src="./img/some_clouds.png" alt=""class="weather">
+            <p>some clouds</p>
+            <ul class="dots">
+                <li class="cel">
+                    21
+                </li>
+                <li class="far">
+                    16
+                </li>
+            </ul>
+        </div>
+        <div class="sat">
+            <p>
+                Saturday
+            </p>
+            <img src="./img/some_sun.png" alt=""class="weather">
+            <p>
+                some sun
+            </p>
+            <ul class="dots">
+                <li class="cel">
+                    26
+                </li>
+                <li class="far">
+                    21
+                </li>
+            </ul>
+        </div>
+    </div>
+    <span id="footer">
+        <img src="./img/cookie.png" alt="" class="cookie">
+        <div class="footerphrase">
+            <p class="bolder">
+                Stop! Cookie time
+            </p>
+            <p>
+                We use cookies(sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.
+            </p>
+            <a href="">Read more...</a>
+        </div>
+        <button class="btn" onclick="hide(footer)">
+            I Accept
+        </button>
+    </span> 
+    <script src="script.js"></script>
+</body>
+</html>

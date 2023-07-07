@@ -1,0 +1,79 @@
+*{
+    margin:  0 auto;
+    padding: 0 auto;
+}
+.topnav{
+    display: flex;
+    background-color: rgb(8, 206, 206);
+    align-items: center;
+    color: white;
+    height: 80px;
+}
+.links{
+    display: flex;
+    list-style-type:none;
+    flex:2;
+}
+.space{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+.nobullets{
+    list-style-type: none;
+    display: flex;
+}
+.location{
+    display: flex;
+    border-bottom: 3px solid black;
+    height: 75px;
+    width: 70%;
+    align-items: center;
+}
+.days{
+    display: flex;
+    width: 71%;
+    height: 500px;
+    justify-content: space-between;
+}
+.today, .tom, .fri, .sat{
+    display: flex;
+    background-color: rgb(226, 224, 224);
+    margin: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.weather{
+    width: 80%;
+    border-radius: 50%;
+}
+#footer{
+    display: flex;
+    border: 2px solid black;
+    width: 68%;
+    padding: 20px;
+    background-color: rgb(226, 224, 224);
+}
+.dots{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+}
+.bolder{
+    font-weight: bolder;
+    font-size: larger;
+}
+.footerphrase{
+    width: 40%;
+}
+.btn{
+    background-color: rgb(204, 215, 253);
+    height: 25px;
+    box-shadow: 2px 2px black;
+}
+.cel{
+    color: red;
+}
+.far{
+    color: blue;
+}

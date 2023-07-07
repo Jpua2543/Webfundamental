@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+}
+.maincontainer{
+    border: 2px solid black;
+    align-items: center;
+    width: 300px;
+    padding: 50px;
+    justify-content: space-around;
+    height: 75px;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.plus{
+    background-color: yellow;
+    box-shadow: 2px 2px 2px black;
+}
+.addition{
+    display: flex;
+}
+.filler{
+    padding: 20px;
+}
